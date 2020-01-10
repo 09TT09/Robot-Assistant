@@ -1,15 +1,14 @@
-// Je tiens a préciser que ce code ne respecte pas (en majorité) la vue schématique (ci j'ai pas oublié de la mettre) du word (exemple les pins sont différent sur le code et sur la vue schématique)
+// Je tiens a préciser que ce code ne respecte pas (en majorité) la vue schématique du word (exemple les pins sont différents sur le code et sur la vue schématique)
 // Dans ce programme la reconnaissance vocale n'est pas encore prise en compte
-// Il ce peut que ce programme ne fonctionne pas correctement car je n'ai pas pu le tester dans son entièreté
-// Le code individuel pour les modules (4 moteurs + 2 L293D) et (capteur à ultrason + 2 LED) fonctionne
+// Il se peut que ce programme ne fonctionne pas correctement car je n'ai pas pu le tester dans son entièreté
+// Le code individuel pour les modules (4 moteurs + 2 L293D) et (capteur à ultrason + 2 LED) fonctionne correctement
 // Je n'ai pas pu tester le code pour le capteur IR (je n'avais pas le matériel)
 // Ce code à été pensé pour être téléversé vers une carte arduino MEGA2560 R3 il se peut qu'il y est des modifications à faire sur le code
 // Ce programme possède : - les commandes moteurs (vitesse et sens)
 //                        - Les commandes Led (allumées ou éteintes)
 //                        - Le suivit de ligne avec double capteur IR
 //                        - La reconnaissance d'obstacle en fonction de leur distance
-// Ce code est un code optionnel est pas le modèle de référence
-
+// Ce code est un code optionnel n'est pas le modèle de référence
 
 // Moteur1 = moteur avant droite
 // Moteur2 = moteur avant gauche
